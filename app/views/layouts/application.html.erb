@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Workspace</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+ <a href= '/about'>about</a>
+ <a href= '/contacts'>contact</a>
+ <a href= '/resume'>resume</a>
+ <a href= '/gallery'>gallery</a>
+<%= yield %>
+
+</body>
+</html>
